@@ -1,0 +1,50 @@
+/* google font code */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600&family=Satisfy&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* header part :start */
+
+
+.player {
+    display: flex;
+    border-radius: 50px;
+    margin: 50px 100px 0px;
+    background-color: #161616;
+    padding: 50px 100px 0px;
+}
+
+
+.player .player-info h2 {
+    font-size: 80px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.player .player-info p {
+    font-size: 16px;
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.player .player-info button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.player .player-pic img {
+    width: 581px;
+    height: 613px;
+    margin-left: 100px;
+}
+
+/* header part :start */
