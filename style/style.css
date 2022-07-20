@@ -20,8 +20,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 30px;
-
-
     background-color: #161616;
     padding: 50px 100px 0px;
 }
@@ -289,12 +287,13 @@ hr {
 
     .player-info {
         text-align: center;
-        width: 100%;
+        width: 500px;
+        margin: auto;
     }
 
     .player-info h2 {
         font-size: 20px;
-
+        margin: auto;
     }
 
     .player-pic img {
@@ -304,8 +303,6 @@ hr {
     .upcoming {
         width: 100%;
         background-color: #fff;
-
-
     }
 
     .containar,
@@ -328,6 +325,8 @@ hr {
     .containar {
         grid-template-columns: repeat(1, 1fr);
     }
+
+
 
     .blogs {
         grid-template-columns: repeat(2, 1fr);
