@@ -45,12 +45,16 @@
     padding: 16px 25px;
     border-radius: 10px;
     letter-spacing: 2px;
+
 }
 
 .player .player-pic img {
     width: 100%;
+}
 
-
+.player:hover button {
+    transform: scale(1.3);
+    font-weight: bold;
 }
 
 /* header part end */
